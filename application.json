@@ -1,0 +1,51 @@
+{
+    "_id": "654bd48acef5ab11a548c5cb",
+    "name": "uieditor-4588",
+    "slug": "uieditor-4588",
+    "organizationId": "Org",
+    "isPublic": false,
+    "isMenu": false,
+    "isShowPlatformTag": true,
+    "createdAt": "2023-11-08T18:33:46.328Z",
+    "updatedAt": "2023-11-09T11:12:30.996Z",
+    "deleted": false,
+    "pages": [
+        {
+            "_id": "home",
+            "isDefault": true
+        }
+    ],
+    "policies": [
+        {
+            "permission": "makePublic:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "read:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "publish:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "manage:applications",
+            "groups": [],
+            "users": []
+        }
+    ],
+    "appLayout": {
+        "type": "DESKTOP"
+    },
+    "gitApplicationMetadata": {
+        "browserSupportedRemoteUrl": "https://github.com/Vitalii-Maistrenko/my-project-ui",
+        "defaultApplicationId": "uieditor-4588",
+        "defaultBranchName": "main",
+        "isRepoPrivate": true,
+        "remoteUrl": "git@github.com:Vitalii-Maistrenko/my-project-ui.git",
+        "repoName": "my-project-ui"
+    }
+}

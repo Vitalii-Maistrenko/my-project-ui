@@ -1,0 +1,400 @@
+[
+    {
+        "_id": "654bd48acef5ab11a548c5cc",
+        "applicationId": "uieditor-4588",
+        "slug": "home",
+        "Page": {
+            "name": "home",
+            "layouts": [
+                {
+                    "_id": "654bd48acef5ab11a548c5d0",
+                    "viewMode": false,
+                    "dsl": {
+                        "widgetName": "MainContainer",
+                        "backgroundColor": "none",
+                        "rightColumn": 966,
+                        "snapColumns": 64,
+                        "detachFromLayout": true,
+                        "widgetId": "0",
+                        "topRow": 0,
+                        "bottomRow": 1290,
+                        "containerStyle": "none",
+                        "snapRows": 125,
+                        "parentRowSpace": 1,
+                        "type": "CANVAS_WIDGET",
+                        "canExtend": true,
+                        "version": 57,
+                        "minHeight": 1292,
+                        "parentColumnSpace": 1,
+                        "dynamicBindingPathList": [],
+                        "leftColumn": 0,
+                        "children": [
+                            {
+                                "isVisible": true,
+                                "backgroundColor": "#FFFFFF",
+                                "widgetName": "Container1",
+                                "containerStyle": "card",
+                                "borderColor": "transparent",
+                                "borderWidth": "0",
+                                "borderRadius": "0",
+                                "boxShadow": "NONE",
+                                "animateLoading": true,
+                                "children": [
+                                    {
+                                        "isVisible": true,
+                                        "widgetName": "Canvas1",
+                                        "version": 1,
+                                        "detachFromLayout": true,
+                                        "type": "CANVAS_WIDGET",
+                                        "hideCard": true,
+                                        "displayName": "Canvas",
+                                        "key": "b379opm9gd",
+                                        "containerStyle": "none",
+                                        "canExtend": false,
+                                        "children": [
+                                            {
+                                                "isVisible": true,
+                                                "label": "User:",
+                                                "labelPosition": "Left",
+                                                "labelAlignment": "left",
+                                                "labelWidth": 5,
+                                                "widgetName": "user",
+                                                "version": 2,
+                                                "defaultText": "",
+                                                "iconAlign": "left",
+                                                "autoFocus": false,
+                                                "labelStyle": "",
+                                                "resetOnSubmit": true,
+                                                "isRequired": false,
+                                                "isDisabled": false,
+                                                "animateLoading": true,
+                                                "classStyle": "",
+                                                "inputType": "TEXT",
+                                                "buttonPosition": "right",
+                                                "type": "INPUT_WIDGET_V2",
+                                                "hideCard": false,
+                                                "displayName": "Input",
+                                                "key": "22ey4go8kx",
+                                                "iconSVG": "/static/media/icon.9f505595.svg",
+                                                "widgetId": "gmarkwnm60",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 9.03125,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 2,
+                                                "rightColumn": 39,
+                                                "topRow": 2,
+                                                "bottomRow": 6,
+                                                "parentId": "gts79v9gft",
+                                                "dynamicBindingPathList": [],
+                                                "dynamicTriggerPathList": []
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "label": "LnUser:",
+                                                "labelPosition": "Left",
+                                                "labelAlignment": "left",
+                                                "labelWidth": 5,
+                                                "widgetName": "LsUser",
+                                                "version": 2,
+                                                "defaultText": "",
+                                                "iconAlign": "left",
+                                                "autoFocus": false,
+                                                "labelStyle": "",
+                                                "resetOnSubmit": true,
+                                                "isRequired": false,
+                                                "isDisabled": false,
+                                                "animateLoading": true,
+                                                "classStyle": "",
+                                                "inputType": "TEXT",
+                                                "buttonPosition": "right",
+                                                "type": "INPUT_WIDGET_V2",
+                                                "hideCard": false,
+                                                "displayName": "Input",
+                                                "key": "22ey4go8kx",
+                                                "iconSVG": "/static/media/icon.9f505595.svg",
+                                                "widgetId": "iuox22s01q",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 9.03125,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 2,
+                                                "rightColumn": 39,
+                                                "topRow": 8,
+                                                "bottomRow": 12,
+                                                "parentId": "gts79v9gft",
+                                                "dynamicBindingPathList": [],
+                                                "dynamicTriggerPathList": []
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "animateLoading": true,
+                                                "text": "Submit",
+                                                "buttonColor": "#03B365",
+                                                "buttonVariant": "PRIMARY",
+                                                "placement": "CENTER",
+                                                "widgetName": "Button1",
+                                                "isDisabled": false,
+                                                "isDefaultClickDisabled": true,
+                                                "recaptchaType": "V3",
+                                                "version": 1,
+                                                "classStyle": "",
+                                                "type": "BUTTON_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Button",
+                                                "key": "d2by2546ce",
+                                                "iconSVG": "/static/media/icon.cca02633.svg",
+                                                "widgetId": "omxijau77m",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 9.03125,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 9,
+                                                "topRow": 14,
+                                                "bottomRow": 18,
+                                                "parentId": "gts79v9gft",
+                                                "onClick": "{{addTodo.run(() => getTodo.run(), () => {})}}",
+                                                "dynamicBindingPathList": [],
+                                                "dynamicTriggerPathList": [
+                                                    {
+                                                        "key": "onClick"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "animateLoading": true,
+                                                "defaultSelectedRow": "0",
+                                                "label": "Data",
+                                                "widgetName": "Table1",
+                                                "searchKey": "",
+                                                "textSize": "PARAGRAPH",
+                                                "horizontalAlignment": "LEFT",
+                                                "verticalAlignment": "CENTER",
+                                                "totalRecordsCount": 0,
+                                                "defaultPageSize": 0,
+                                                "isShowLoading": true,
+                                                "dynamicBindingPathList": [
+                                                    {
+                                                        "key": "tableData"
+                                                    },
+                                                    {
+                                                        "key": "primaryColumns._id.computedValue"
+                                                    },
+                                                    {
+                                                        "key": "primaryColumns.name.computedValue"
+                                                    },
+                                                    {
+                                                        "key": "primaryColumns.lsUser.computedValue"
+                                                    }
+                                                ],
+                                                "primaryColumns": {
+                                                    "_id": {
+                                                        "index": 0,
+                                                        "width": 150,
+                                                        "id": "_id",
+                                                        "horizontalAlignment": "LEFT",
+                                                        "verticalAlignment": "CENTER",
+                                                        "columnType": "text",
+                                                        "textSize": "PARAGRAPH",
+                                                        "enableFilter": true,
+                                                        "enableSort": true,
+                                                        "isVisible": true,
+                                                        "isDisabled": false,
+                                                        "isCellVisible": true,
+                                                        "isDerived": false,
+                                                        "label": "_id",
+                                                        "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow._id))}}"
+                                                    },
+                                                    "name": {
+                                                        "index": 1,
+                                                        "width": 150,
+                                                        "id": "name",
+                                                        "horizontalAlignment": "LEFT",
+                                                        "verticalAlignment": "CENTER",
+                                                        "columnType": "text",
+                                                        "textSize": "PARAGRAPH",
+                                                        "enableFilter": true,
+                                                        "enableSort": true,
+                                                        "isVisible": true,
+                                                        "isDisabled": false,
+                                                        "isCellVisible": true,
+                                                        "isDerived": false,
+                                                        "label": "name",
+                                                        "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.name))}}"
+                                                    },
+                                                    "lsUser": {
+                                                        "index": 2,
+                                                        "width": 150,
+                                                        "id": "lsUser",
+                                                        "horizontalAlignment": "LEFT",
+                                                        "verticalAlignment": "CENTER",
+                                                        "columnType": "text",
+                                                        "textSize": "PARAGRAPH",
+                                                        "enableFilter": true,
+                                                        "enableSort": true,
+                                                        "isVisible": true,
+                                                        "isDisabled": false,
+                                                        "isCellVisible": true,
+                                                        "isDerived": false,
+                                                        "label": "lsUser",
+                                                        "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.lsUser))}}"
+                                                    }
+                                                },
+                                                "derivedColumns": {},
+                                                "tableData": "{{getTodo.data}}",
+                                                "columnSizeMap": {
+                                                    "task": 245,
+                                                    "step": 62,
+                                                    "status": 75
+                                                },
+                                                "columnOrder": [
+                                                    "_id",
+                                                    "name",
+                                                    "lsUser"
+                                                ],
+                                                "enableClientSideSearch": true,
+                                                "isVisibleSearch": false,
+                                                "isVisibleFilters": false,
+                                                "isVisibleDownload": false,
+                                                "isVisiblePagination": false,
+                                                "isSortable": true,
+                                                "delimiter": ",",
+                                                "version": 3,
+                                                "type": "TABLE_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Table",
+                                                "key": "6z63w1coxk",
+                                                "iconSVG": "/static/media/icon.db8a9cbd.svg",
+                                                "widgetId": "5pp6bqvjve",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 9.03125,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 64,
+                                                "topRow": 18,
+                                                "bottomRow": 53,
+                                                "parentId": "gts79v9gft",
+                                                "dynamicTriggerPathList": [],
+                                                "dynamicPropertyPathList": []
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "iconName": "minus",
+                                                "borderRadius": "ROUNDED",
+                                                "boxShadow": "NONE",
+                                                "buttonColor": "#DD4B34",
+                                                "buttonVariant": "PRIMARY",
+                                                "isDisabled": "{{!Table1.selectedRow._id}}",
+                                                "widgetName": "IconButton1",
+                                                "version": 1,
+                                                "animateLoading": true,
+                                                "type": "ICON_BUTTON_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Icon Button",
+                                                "key": "2cxs34ieyw",
+                                                "iconSVG": "/static/media/icon.1a0c634a.svg",
+                                                "widgetId": "2797nxk6rc",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 9.03125,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 36,
+                                                "rightColumn": 39,
+                                                "topRow": 14,
+                                                "bottomRow": 18,
+                                                "parentId": "gts79v9gft",
+                                                "dynamicBindingPathList": [
+                                                    {
+                                                        "key": "isDisabled"
+                                                    }
+                                                ],
+                                                "dynamicTriggerPathList": [
+                                                    {
+                                                        "key": "onClick"
+                                                    }
+                                                ],
+                                                "dynamicPropertyPathList": [
+                                                    {
+                                                        "key": "isDisabled"
+                                                    }
+                                                ],
+                                                "classStyle": "",
+                                                "onClick": "{{Api1.run(() => getTodo.run(), () => {})}}"
+                                            }
+                                        ],
+                                        "minHeight": 400,
+                                        "widgetId": "gts79v9gft",
+                                        "renderMode": "CANVAS",
+                                        "isLoading": false,
+                                        "parentColumnSpace": 1,
+                                        "parentRowSpace": 1,
+                                        "leftColumn": 0,
+                                        "rightColumn": 224.25,
+                                        "topRow": 0,
+                                        "bottomRow": 550,
+                                        "parentId": "ue3rscuq5w"
+                                    }
+                                ],
+                                "version": 1,
+                                "classStyle": "",
+                                "type": "CONTAINER_WIDGET",
+                                "hideCard": false,
+                                "displayName": "Container",
+                                "key": "sxkw267d5m",
+                                "iconSVG": "/static/media/icon.1977dca3.svg",
+                                "isCanvas": true,
+                                "widgetId": "ue3rscuq5w",
+                                "renderMode": "CANVAS",
+                                "isLoading": false,
+                                "parentColumnSpace": 9.34375,
+                                "parentRowSpace": 10,
+                                "leftColumn": 0,
+                                "rightColumn": 37,
+                                "topRow": 0,
+                                "bottomRow": 55,
+                                "parentId": "0"
+                            }
+                        ],
+                        "dynamicTriggerPathList": []
+                    },
+                    "widgetNames": [
+                        "MainContainer",
+                        "Container1",
+                        "Canvas1",
+                        "user",
+                        "LsUser",
+                        "Button1",
+                        "Table1",
+                        "IconButton1"
+                    ],
+                    "deleted": false,
+                    "layoutOnLoadActions": [
+                        []
+                    ],
+                    "layoutOnCloseActions": [
+                        []
+                    ],
+                    "policies": []
+                }
+            ]
+        },
+        "createdAt": "2023-11-08T18:33:46.332Z",
+        "updatedAt": "2023-11-08T18:33:46.332Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:pages",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:pages",
+                "groups": [],
+                "users": []
+            }
+        ]
+    }
+]
